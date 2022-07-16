@@ -1,0 +1,136 @@
+body{
+	margin: 0;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 20px;
+}
+
+.dateRow{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 20px;
+	margin-top: -20px;
+	margin-bottom: -40px;
+}
+
+input:focus{
+	outline: none !important;
+	box-shadow: 0 0 2px #719ECE;
+	border-radius: 5px;
+}
+
+#date{
+	border-width: 1px;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	height: 40px;
+	margin: 20px;
+	margin-top: 2px;
+	border-color: black;
+	border-style: dotted;
+}
+
+#fill{
+	border-width: 1px;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	height: 40px;
+	margin: 20px;
+	margin-top: 2px;
+	border-color: black;
+	width: 1024px;
+}
+
+#partial{
+	border-width: 1px;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	height: 40px;
+	margin: 20px;
+	margin-top: 2px;
+	border-color: black;
+	width: 512px;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 20px;
+}
+
+.innerRow{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+}
+
+#innerInput{
+	border-width: 1px;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	height: 40px;
+	margin: 20px;
+	margin-top: 2px;
+	border-color: black;
+	width: 440px;
+}
+
+#relationship{
+	border-width: 1px;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	height: 40px;
+	margin: 20px;
+	margin-top: 2px;
+	border-color: black;
+	width: 1024px;
+}
+
+.help_text{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: -50px;
+}
+
+.title{
+	background-color:  #35a192;
+	color: aliceblue;
+	border-radius: 5px;
+}
+
+.completedRow{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 50px;
+}
+
+#completedForm{
+	border-width: 1px;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	height: 40px;
+	margin: 20px;
+	margin-top: 2px;
+	border-color: black;
+	border-style: dotted;
+	width: 780px;
+}
+
+
+
+
