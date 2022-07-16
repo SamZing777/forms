@@ -36,6 +36,16 @@ input:focus{
 	border-style: dotted;
 }
 
+@keyframes rotateInput {
+  2% {transform: rotate(5deg);}
+}
+
+input:hover{
+	background-color: rgba(0, 0, 0, 0.02);
+	border-radius: 5px;
+	animation: rotateInput 0.5s;
+}
+
 #fill{
 	border-width: 1px;
 	border-top: 0;
